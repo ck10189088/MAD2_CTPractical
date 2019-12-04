@@ -11,7 +11,28 @@ import CoreData
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
+    
+    var window: UIWindow?
+    
+    func StoreTestAccount(){
+        let appDelegate = UIApplication.shared.delegate as! AppDelegate
+        let context = appDelegate.persistentContainer.viewContext
+        
+        let entity = NSEntityDescription.entity(forEntityName: "CDAccount", in: context)!
+        let account1 = NSManagedObject(entity: entity, insertInto: context)
+        account1.setValue("user1@gmail.com", forKey: "email")
+        account1.setValue("12345678", forKey: "password")
+        let account2 = NSManagedObject(entity: entity, insertInto: context)
+        account2.setValue("admin@apple.com", forKey: "email")
+        account2.setValue("root", forKey: "password")
+        
+        do{
+            try context.save()
+        }catch{
+            print("Fail saving")
+        }
+        
+    }
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
