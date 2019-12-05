@@ -13,4 +13,13 @@ class Contact{
     var firstName:String
     var lastName:String
     var photo:UIImage
+    var telephone:String
+    
+    init(fn:String,ln:String,photo:UIImage,tp:String){
+        firstName = fn
+        lastName = ln
+        self.photo = photo
+        telephone = tp
+    }
+    
 }

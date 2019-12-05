@@ -11,4 +11,8 @@ import UIKit
 
 class GRNavController : UITableViewController{
     
+    override func viewDidLoad() {
+        super.viewDidLoad()
+    }
+    
 }

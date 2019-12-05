@@ -31,7 +31,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         }catch{
             print("Fail saving")
         }
-        
+    }
+    
+    var contactList:[Contact]=[]
+    
+    func createDummyContacts(){
+        var c1 = Contact(fn: "Alan", ln: "Hayes", photo: UIImage(named: "alanhayes")!, tp: "88221122")
+        var c2 = Contact(fn: "Jean", ln: "Yip", photo: UIImage(named: "jeanyip")!, tp: "55115522")
+        contactList = [c1,c2]
     }
 
 
