@@ -17,6 +17,7 @@
 		8710EF6D23961584009D0E0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8710EF6C23961584009D0E0F /* Assets.xcassets */; };
 		8710EF7023961584009D0E0F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8710EF6E23961584009D0E0F /* LaunchScreen.storyboard */; };
 		87455518239797D0008EF184 /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87455517239797D0008EF184 /* Account.swift */; };
+		8781DA112398E4A1003695E6 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8781DA102398E4A1003695E6 /* CustomCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		8710EF6F23961584009D0E0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8710EF7123961584009D0E0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		87455517239797D0008EF184 /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
+		8781DA102398E4A1003695E6 /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 				87455517239797D0008EF184 /* Account.swift */,
 				8710EF6623961583009D0E0F /* Main.storyboard */,
 				8710EF6C23961584009D0E0F /* Assets.xcassets */,
+				8781DA102398E4A1003695E6 /* CustomCell.swift */,
 				8710EF6E23961584009D0E0F /* LaunchScreen.storyboard */,
 				8710EF7123961584009D0E0F /* Info.plist */,
 				8710EF6923961583009D0E0F /* PracticalTest.xcdatamodeld */,
@@ -156,6 +159,7 @@
 				8710EF6B23961583009D0E0F /* PracticalTest.xcdatamodeld in Sources */,
 				8710EF6123961583009D0E0F /* AppDelegate.swift in Sources */,
 				8710EF6323961583009D0E0F /* SceneDelegate.swift in Sources */,
+				8781DA112398E4A1003695E6 /* CustomCell.swift in Sources */,
 				8704727E2398B59800B0A32D /* Contact.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
