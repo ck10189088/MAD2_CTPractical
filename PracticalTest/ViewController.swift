@@ -30,7 +30,7 @@ class ViewController: UIViewController {
                 let email = a.value(forKeyPath: "email") as? String
                 let password = a.value(forKeyPath: "password") as? String
                 if(txtEmail.text == email && txtPassword.text == password){
-                    let vc = self.storyboard?.instantiateViewController(withIdentifier: "grnavcontroller")
+                    let vc = self.storyboard?.instantiateViewController(withIdentifier: "GRNavController")
                     present(vc!,animated: false,completion: nil)
                 }
             }

@@ -1,5 +1,5 @@
 //
-//  GRNavController.swift
+//  Contact.swift
 //  PracticalTest
 //
 //  Created by MAD2_P02 on 5/12/19.
@@ -9,6 +9,8 @@
 import Foundation
 import UIKit
 
-class GRNavController : UITableViewController{
-    
+class Contact{
+    var firstName:String
+    var lastName:String
+    var photo:UIImage
 }
